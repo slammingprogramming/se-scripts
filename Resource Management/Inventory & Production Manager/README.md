@@ -1,10 +1,10 @@
 # Inventory & Production Manager
 **Version:** 0.0.0
-**Date:** 10/31/2024  
+**Date:** 11/01/2024  
 **Author:** SlammingProgramming  
 
 ## Overview
-The Inventory & Production Manager is an advanced inventory management tool designed to optimize the sorting and production processes within your Space Engineers game. This script efficiently organizes items into type-specific cargo containers while automating production, refining, and disassembly processes to ensure maximum efficiency across all operations. It also features a real-time monitoring system for cargo volume, helping you manage inventory without constant manual checks.
+The Inventory & Production Manager is an advanced inventory management tool designed to optimize the sorting and production processes within your Space Engineers game. This script efficiently organizes items into type-specific cargo containers while automating production, refining, and disassembly processes to ensure maximum efficiency across all operations. It features a real-time monitoring system for cargo volume and integrates dynamic lighting indicators for cargo status, helping you manage inventory without constant manual checks.
 
 ## Key Features
 
@@ -43,9 +43,11 @@ The Inventory & Production Manager is an advanced inventory management tool desi
 
 ### Cargo Volume Monitoring
 - **Real-Time Cargo Volume Check:** Monitors the current volume of all cargo containers, connectors, and drills.
-- **Visual Alerts:** Changes the color of a spotlight based on cargo volume limits set by the user, providing a clear visual indication of capacity.
-  - **Warning Indicator:** Changes color to alert when the cargo volume reaches a specified limit.
-  - **Full Indicator:** Changes color a second time when the maximum volume of the ship is reached, preventing overloading without manual inventory checks.
+- **Dynamic Cargo Light Indicators:** Uses light blocks named "Cargo Light" or groups named "Cargo Lights" to indicate cargo status:
+  - **Blinking Green:** Indicates cargo is empty.
+  - **Gradual Color Change:** Transitions from green to red as cargo fills.
+  - **Blinking Red:** Alerts when cargo is completely full.
+  - **Customizable Color Settings:** Set specific colors for 0% and 100% fill levels, with interpolated colors for intermediate levels.
 
 ### User Feedback and Information Display
 - **LCD Output:** Displays cargo container information and current actions on LCD panels for real-time monitoring.
