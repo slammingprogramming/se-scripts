@@ -1,5 +1,5 @@
 # Inventory & Production Manager
-**Version:** 0.0.0
+**Version:** 0.0.0  
 **Date:** 10/31/2024  
 **Author:** SlammingProgramming  
 
@@ -50,6 +50,7 @@ The Inventory & Production Manager is an advanced inventory management tool desi
 ### User Feedback and Information Display
 - **LCD Output:** Displays cargo container information and current actions on LCD panels for real-time monitoring.
 - **Inventory Item Count on LCDs:** Outputs the amounts of stored items on LCD panels for easy visibility of resource availability.
+- **Fill Level Bars:** Displays bars representing the fill level of each cargo container on attached LCD panels, color-coded based on fill level. Optionally shows the container name and percentage.
 
 ### Mod Support
 - **Support for Modded Items:** Fully supports modded items for autocrafting, ore balancing, and custom container loadouts, enhancing gameplay versatility.
@@ -70,6 +71,6 @@ The Inventory & Production Manager is an advanced inventory management tool desi
 - Set up an action for the button to run the program with the argument: **("init")**.
 
 ## Known Issues
-- **Bottle Cycling:** Bottles may cycle between the O2/H2 generator and the bottle container due to game mechanics. To resolve, disable "Use Conveyor" for all generators and allow IIM to manage ice and bottle handling.
+- **Bottle Cycling:** Bottles may cycle between the O2/H2 generator and the bottle container due to game mechanics. To resolve, disable "Use Conveyor" for all generators and allow the script to manage ice and bottle handling.
 - **Container Desync:** If you encounter issues with item retrieval on dedicated servers, disable "Internal Sorting" in the script's config and relog.
 - **Compatibility Issues with Mods:** Some mods may interfere with the ore balancing system. Adding "!manual" to the name of incompatible refineries will exclude them from balancing, maintaining script functionality.
