@@ -1,5 +1,5 @@
 # Inventory & Production Manager
-**Version:** 0.0.0  
+**Version:** 0.0.0
 **Date:** 10/31/2024  
 **Author:** SlammingProgramming  
 
