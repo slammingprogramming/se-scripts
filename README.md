@@ -67,5 +67,7 @@ We welcome contributions from the community! If you have ideas for new scripts, 
 ## License
 This project is licensed under the GPL-3.0 License. See the LICENSE file for more details.
 
+This project may include components that are licensed under other licenses. Where applicable, the licensing information for these components is included in the same folder as the respective components or in a parent folder if all child components share the same or compatible licensing. It is the responsibility of the user to review and comply with the licensing terms for these components.
+
 ## Contact
 For questions or support, please reach out to SlammingProgramming on GitHub.

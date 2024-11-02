@@ -1,5 +1,13 @@
 # Space Engineers Trailer Manager
 
+## License Information
+
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). However, it contains components licensed under the MIT License by the original author, Brian Ronald.
+
+For more details, see the [MIT License](./LICENSE-MIT) in the project directory.
+
+## Script Info
+
 [On the Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2341786466)
 
 **Designed with [ISL](https://steamcommunity.com/sharedfiles/filedetails/?id=2316120850) compatibility as a goal**
