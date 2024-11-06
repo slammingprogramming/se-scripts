@@ -22,7 +22,7 @@ Welcome to the **Space Engineers Scripts Suite**! This repository contains a col
 ## Installation
 
 1. Clone the repository or download the ZIP file.
-   git clone https://github.com/yourusername/space-engineers-scripts.git
+   git clone https://github.com/slammingprogramming/se-scripts.git
 
 2. Copy the desired script files into your Space Engineers Scripts folder.
 
@@ -62,7 +62,7 @@ Here’s a brief overview of the script categories included in this suite:
 
 ## Contributing
 
-We welcome contributions from the community! If you have ideas for new scripts, improvements, or bug fixes, please feel free to fork the repository and submit a pull request. Make sure to follow the contribution guidelines if available.
+We welcome contributions from the community! If you have ideas for new scripts, improvements, or bug fixes, please feel free to fork the repository and submit a pull request. Make sure to follow the contribution guidelines.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
