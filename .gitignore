@@ -55,8 +55,8 @@ SpaceEngineers.sbc
 SpaceEngineers_Data/
 
 # Ignore custom Space Engineers script logs
-*.log
-*.txt
+ *.log
+# *.txt
 
 # Ignore any output of automated build tools
 dist/

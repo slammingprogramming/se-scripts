@@ -1,0 +1,53 @@
+Enhanced Alarm/Defense Control Script
+Core Functions
+Activation Options:
+
+Manual Toggle Activation: Retain activation by toggling a specific interior light.
+Dedicated Control Console: A console that allows manual activation via a custom interface, including buttons for alarm start, alarm end, and additional alert levels.
+Automatic Activation on Attack: Alarm triggers automatically upon hull breach or block damage.
+Hacking Detection: Trigger when a hacking attempt is detected on any block.
+Button Activation Option: Manual button activation that can be used in key areas or control rooms.
+Sensor-Based Activation: Utilize sensors to detect proximity and trigger alarms, with additional filtering options for allies vs. enemies.
+Alarm Intensity Levels:
+
+Introduce different alert levels (e.g., Yellow, Orange, Red) with each level associated with specific defense protocols and energy-saving measures. For instance:
+Yellow: Basic alert, light pulsing on interior lights only.
+Orange: Full interior and exterior lights flash, basic doors close, energy efficiency mode enabled.
+Red: Highest alert, all systems on high alert, turrets at max capacity, refineries and assemblers paused, etc.
+
+Sets all lights in a group to blink red for a set amount of time then stay solid red, returns lights to original color when deactivated.
+
+Visual and Audio Feedback:
+
+Lighting Control: Interior and exterior lights blink and change colors based on the alert level, allowing for clear visual cues of threat severity.
+Soundblocks Control: Layered sound alerts that reflect the alert level, which can escalate with threat level.
+Communication Management:
+
+Antennas/Beacons: Override with alarm-based text, including alert reason and current threat level.
+Configurable Console Alerts: A special display that shows the type of alarm, activation source, and a timestamp for tracking alerts.
+Door and Airlock Management:
+
+Automatic Door Lockdown: Close all doors on high alerts and open specified escape doors based on a priority system.
+Controlled Airlock System: Separate control over airlocks, ensuring integrity and isolation of O2 systems during alerts.
+Defensive Turret and Weapon Systems:
+
+Turret Activation: Auto-enable turrets and set them to target enemies specifically. Integrate customizable turret targeting options, such as targeting only large ships or focusing on missile defense.
+Shield Integration (if available): Interface with shield systems to boost defensive measures during high alerts.
+Power and Resource Management:
+
+Battery Optimization: Override battery recharge settings to prioritize power during alerts, disabling recharge to conserve power.
+Power-Throttling: Automatically disable non-essential systems like refineries, assemblers, and other production blocks during high alert.
+Alert Timer & Reset System:
+
+Automatic Reset Timers: After a set duration, alarms can reset to avoid prolonged alerts from minor incidents.
+Customizable Cooldown and Flagging: Set cooldowns between alerts to prevent spam or false positives from triggering continuously.
+Logging & Data Management:
+
+Event Logging: Track alarms, activation sources, and the time for each alert event.
+Status Display: Display active alarms, total alert counts, and recent alert history on a monitoring console.
+Additional Enhancements
+Customizable Response Actions: Add action presets for each alert level that users can customize based on specific needs or to meet special conditions, such as changing lighting color codes or adjusting energy conservation tactics.
+Maintenance Mode: A mode to disable alarm responses when running internal tests or repairs, preventing accidental activations.
+Remote Trigger Options: Control system through remote controls or handheld devices for more flexibility on larger ships or stations.
+Fail-Safe Mode: For power loss scenarios, trigger a minimal alert or flashing lights to maintain basic alarm awareness without requiring full power.
+By integrating these features, this updated alarm/defense system would offer comprehensive functionality, flexibility, and ease of customization to meet a wide range of defensive needs while prioritizing user control. Each layer of alerts and activations can be modified to suit your playstyle or strategic priorities, from energy conservation to an all-out defense mode.
